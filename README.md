@@ -1,1 +1,1 @@
-# Some of my practice codes
+# A collection of problem solving solutions
