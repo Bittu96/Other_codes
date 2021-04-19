@@ -1,1 +1,1 @@
-# A collection of problem solving solutions
+# This is one of my collections of solutions in python
