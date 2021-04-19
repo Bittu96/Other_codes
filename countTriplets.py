@@ -2,9 +2,9 @@ import testData
 from collections import Counter
 arr = '1 2 2 4'
 arr = '1 3 9 9 27 81'
-arr = '1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'
+# arr = '1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'
 
-arr = testData.test2
+# arr = testData.test2
 arr = list(map(int, arr.split()))
 r = 3
 
@@ -16,7 +16,6 @@ def countTriplets(arr, r, count=0):
 		if right_map[ir] and left_map[ri] and not i%r: count += left_map[ri]*right_map[ir]
 		left_map[i]+=1
 	return count
-
 
 
 # 1339347780085 exp
